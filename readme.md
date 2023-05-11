@@ -2,6 +2,8 @@
 
 Este proyecto tiene como objetivo practicar de forma rápida la consulta a una API que requiere autenticación utilizando la [Marvel API](https://developer.marvel.com).
 
+Puedes visitar la demo desde el siguiente enlace 👉🏼 [Demo](https://josejarn.github.io/marvel-api/)
+
 ## Tecnologías utilizadas
 
 En este proyecto se han utilizado las siguientes tecnologías:
