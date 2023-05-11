@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personajes Marvel</title>
   <link rel="stylesheet" href="./styles/main.css">
+  <!-- Fuente importada de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +23,12 @@
   <main class="main">
     <section class="content">
       <div class="content__intro">
-        <p class="content__intro-message">Obtén 12 personajes de Marvel de forma totalmente aleatoria</p>
+        <div class="content__intro-prev">
+          <p class="content__intro-message">Obtén 12 nuevos personajes de forma aleatoria haciendo click en el botón
+            o
+            recargando la página</p>
+          <button class="content__intro-button" id="characters-button">Refrescar</button>
+        </div>
         <ul class="content__intro-items">
           <!-- Listado de personajes de Marvel -->
         </ul>
@@ -28,8 +37,9 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer__container">
-      <p class="footer__text">Hecho por <a href="https://github.com/JoseJARN" target="_blank">JoseJARN</a></p>
+    <div class="content footer__container">
+      <p class="footer__text">Hecho por <a href="https://github.com/JoseJARN" target="_blank">JoseJARN</a> con la ayuda
+        de la <a href="http://developer.marvel.com" target="_blank" rel="noopener noreferrer">API de Marvel</a> 😎</p>
     </div>
   </footer>
   <script src="./scripts/main.js"></script>
